@@ -54,5 +54,9 @@ Item 4- Click a shelve to sell item in storage
 Item 5- Have Random Customers Come Buy And Look At The Items In Your Store
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+We should check out React || or some kind of builder so we can use sass or something
+Sass makes stylin easier
 
 
