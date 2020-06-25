@@ -2,6 +2,15 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: font;
+    src: url(game.TTF);
+}
+
+* {
+    font-family: font;
+}
+
 body {
     display: flex;
     justify-content: center;
