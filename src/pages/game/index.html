@@ -5,18 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Tycoon 2</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="shopCont">
-        <button id="shopBtn" style="-webkit-user-select: none;">Shop</button>
+        <button id="shopBtn" onclick="openShop()" style="-webkit-user-select: none;">Shop</button>
     </div> <!--Top left-->
     <div id="upgradesCont">
-        <button id="upgradesBtn"  style="-webkit-user-select: none;">Upgrades</button>
+        <button id="upgradesBtn"  onclick="openUpgrade()" style="-webkit-user-select: none;">Upgrades</button>
     </div> <!--Under shop-->
     <!-- <div id="buyPremiumCont"></div> Middle bottom -->
     <div id="expCont">
         <div id="expCount"  style="-webkit-user-select: none;">EXP: 0</div> <!--Changes exp in JS (.innerHTML)-->
     </div> <!--Under of money-->
     <div id="cashMoneyCont"  style="-webkit-user-select: none;">Money: 200</div> <!--Top right-->
+
+    <div id="shopGui">
+        <button id="closeButton" onclick="document.getElementById('shopGui').style.display='none';">X</button>
+        <h2 style="text-align: center;">SHOP</h2>
+        <span id="tabsCont">
+            <button id="tabShop">Moniters</button>
+            <button id="tabShop">Pc Parts</button>
+            <button id="tabShop">Cables</button>
+            <button id="tabShop">Acceseries</button>
+            <button id="tabShop">Coming Soon...</button>
+        </span>
+        <div id="itemsBox"></div>
+    </div>
+    <div id="upgradeGui">
+        <button id="closeButton" onclick="document.getElementById('upgradeGui').style.display='none';">X</button>
+        <h2 style="text-align: center;">Upgrade</h2>
+        
+    </div>
 </body>
 </html>
