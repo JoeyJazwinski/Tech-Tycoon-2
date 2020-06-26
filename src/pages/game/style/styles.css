@@ -11,6 +11,7 @@ html {
 
 * {
     font-family: font;
+    -webkit-user-select: none
 }
 
 body {
@@ -235,7 +236,9 @@ body {
     border: 1px solid black;
     margin: 6px;
     background-color: whitesmoke;
+    overflow-y: scroll;
 }
+
 
 #upgradeBox {
     height: 2in;
@@ -246,3 +249,38 @@ body {
     background-color: whitesmoke;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(156, 156, 156); 
+    border-radius: 90px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(128, 128, 128); 
+  }
+
+  #moniter1 {
+      width: auto;
+      height: 70px;
+      border: 1px solid black;
+      margin: 4px;
+  }
+
+  #moniter {
+      margin: 10px;
+  }
+
+  #moniterName {
+      font-size: 25px;
+  }
