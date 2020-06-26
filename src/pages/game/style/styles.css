@@ -1,12 +1,12 @@
 html {
     height: 100%;
-    background-image: url(../../../art/sprites/ROAD.png);
+    background-image: url(../../../../art/sprites/ROAD.png);
     background-size: cover;
 }
 
 @font-face {
     font-family: font;
-    src: url(../../../font/game.TTF);
+    src: url(../../../../font/game.TTF);
 }
 
 * {
