@@ -28,3 +28,13 @@ const openShopCategory = (selectedShopCategory) => {
     }
     addCSS(selectedShopCategory, 'selected');
 }
+
+// TODO: Joey fillin
+const items = [
+    {
+        image: '',
+        name: '',
+        description: '',
+        price: 100,
+    }
+];
