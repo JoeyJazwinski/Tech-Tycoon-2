@@ -46,7 +46,7 @@ They may have a specific item they want
 
 								MVP ITEMS
 
-Item 1- Main Menu
+Item 1- Main Menu DONE
 Item 2- Make Building With Shelves
 Item 3- Make A GUI To Buy Items
 Item 4- Click a shelve to sell item in storage
