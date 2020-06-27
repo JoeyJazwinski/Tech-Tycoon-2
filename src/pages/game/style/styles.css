@@ -14,10 +14,6 @@ html {
     -webkit-user-select: none
 }
 
-body {
-
-}
-
 .mediumButton {
     width: 1.7in;
 
@@ -29,7 +25,6 @@ body {
 
     text-align: center;
     color: white;
-    cursor: pointer;
     float: left;
     font-size: 34px;
     font-weight: 800;
@@ -40,11 +35,15 @@ body {
     user-select: none;
 }
 
-.mediumButton:hover {
+button.mediumButton {
+    cursor: pointer;
+}
+
+button.mediumButton:hover {
     opacity: 0.8; 
 }
 
-.mediumButton:active {
+button.mediumButton:active {
     background: #18B495;
 }
 
@@ -59,7 +58,6 @@ body {
 
     position: absolute;
     right: 10px;
-    cursor: default;
 }
 
 #expCount {
@@ -68,7 +66,6 @@ body {
     position: absolute;
     right: 10px;
     top: .81in;
-    cursor: default;
 }
 
 #shopGui {
