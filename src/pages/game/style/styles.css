@@ -110,29 +110,33 @@ button.mediumButton:active {
     padding:0;
 }
 
+.modalHeader {
+    display: flex;
+    margin: 10px;
+}
+
+.modalHeader h2 {
+    flex: 1;
+    margin: 0px;    
+}
+
 #closeButton{
     width: .7cm;
     height: .7cm;
 
-    font-size: 25px;
-    color: red;
     background-color: rgb(214, 214, 233);
-
     border-radius: 7px;
     border: 1px solid black;
-    margin-left: 5.7in;
-    margin-top: 3px;
-
+    color: red;
     cursor: pointer;
-
-    position: absolute;
+    font-size: 25px;    
 }
 
 #tabsCont {
     display: flex;
     text-align: center;
     margin-left: 10px;
-    margin-top: -0.75cm;
+    
 }
 
 #tabShop {
@@ -167,7 +171,6 @@ button.mediumButton:active {
     width: 5.7s;
     border: 1px solid black;
     margin: 5px;
-    margin-top: -15px;
     background-color: whitesmoke;
 }
 

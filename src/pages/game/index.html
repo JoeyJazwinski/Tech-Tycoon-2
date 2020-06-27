@@ -25,8 +25,11 @@
 
 
     <div id="shopGui" class="hidden">
-        <button id="closeButton" onclick="closeMenu('shopGui')">X</button>
-        <h2 class="centerText">Shop</h2>
+        <div class="modalHeader">
+            <h2 class="centerText">Shop</h2>
+            <button id="closeButton" onclick="closeMenu('shopGui')">X</button>
+        </div>        
+
         <span id="tabsCont">
             <button id="tabShop">Moniters</button>
             <button id="tabShop">Pc Parts</button>
@@ -42,8 +45,11 @@
         </div>
     </div>
     <div id="upgradeGui" class="hidden">
-        <button id="closeButton" onclick="closeMenu('upgradeGui')">X</button>
-        <h2 class="centerText">Upgrade</h2>
+        <div class="modalHeader">
+            <h2 class="centerText">Upgrade</h2>
+            <button id="closeButton" onclick="closeMenu('upgradeGui')">X</button>
+        </div>
+
         <div id="upgradeBox" height="100px"></div>
     </div>
 </body>
