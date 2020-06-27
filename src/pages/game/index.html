@@ -8,17 +8,20 @@
     <script src="../game/scripts/script.js"></script>
 </head>
 <body>
+    <!-- Top left buttons -->
     <div id="shopCont">
-        <button id="shopBtn" onclick="openShop()" style="-webkit-user-select: none;">Shop</button>
-    </div> <!--Top left-->
+        <button id="shopBtn" class="mediumButton" onclick="openShop()">Shop</button>
+    </div>
     <div id="upgradesCont">
-        <button id="upgradesBtn"  onclick="openUpgrade()" style="-webkit-user-select: none;">Upgrades</button>
-    </div> <!--Under shop-->
+        <button id="upgradesBtn" class="mediumButton" onclick="openUpgrade()">Upgrades</button>
+    </div>
+    
+    <!-- Top right buttons -->
+    <button id="cashMoneyCont" class="mediumButton">Money: 200</button>
+    <button id="expCount" class="mediumButton">EXP: 0</button> <!--Changes exp in JS (.innerHTML)-->
     <!-- <div id="buyPremiumCont"></div> Middle bottom -->
-    <div id="expCont">
-        <div id="expCount"  style="-webkit-user-select: none;">EXP: 0</div> <!--Changes exp in JS (.innerHTML)-->
-    </div> <!--Under of money-->
-    <div id="cashMoneyCont"  style="-webkit-user-select: none;">Money: 200</div> <!--Top right-->
+
+
 
     <div id="shopGui">
         <button id="closeButton" onclick="document.getElementById('shopGui').style.display='none';">X</button>
