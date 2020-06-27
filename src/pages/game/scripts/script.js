@@ -1,6 +1,18 @@
+const closeMenu = (id) => {
+    hide(get(id));
+}
+
 function openShop() {
     hide(get('upgradeGui'));
     unhide(get('shopGui'));
+
+    // Unselect all shopCategory buttons
+    const shopCategories = document.getElementsByClassName('shopCategory');
+    for (let i = 0; i < shopCategories.length; i++) {
+        const shopCategory = shopCategories[i];
+        removeCSS(shopCategory, 'selected');
+    }
+    addCSS(shopCategories[0], 'selected');
 }
 
 function openUpgrade() {
@@ -8,6 +20,11 @@ function openUpgrade() {
     unhide(get('upgradeGui'));
 }
 
-function closeMenu(id) {
-    hide(get(id));
+const openShopCategory = (selectedShopCategory) => {
+    const shopCategories = document.getElementsByClassName('shopCategory');
+    for (let i = 0; i < shopCategories.length; i++) {
+        const shopCategory = shopCategories[i];
+        removeCSS(shopCategory, 'selected');
+    }
+    addCSS(selectedShopCategory, 'selected');
 }
