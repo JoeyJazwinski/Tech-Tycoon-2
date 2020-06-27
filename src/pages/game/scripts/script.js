@@ -1,20 +1,13 @@
 function openShop() {
-
-    if (document.getElementById('shopGui').style.display='none') {
-        document.getElementById('shopGui').style.display='inline-block';
-    }   
-    if (document.getElementById('upgradeGui').style.display='inline-block') {
-        document.getElementById('upgradeGui').style.display='none';
-    }
+    hide(get('upgradeGui'));
+    unhide(get('shopGui'));
 }
 
 function openUpgrade() {
+    hide(get('shopGui'));
+    unhide(get('upgradeGui'));
+}
 
-    if (document.getElementById('upgradeGui').style.display='none') {
-        document.getElementById('upgradeGui').style.display='inline-block';
-    }
-    if (document.getElementById('shopGui').style.display='inline-block') {
-        document.getElementById('shopGui').style.display='none';
-    }
-    
+function closeMenu(id) {
+    hide(get(id));
 }
