@@ -18,136 +18,55 @@ body {
     background-color: rgba(125, 125, 228, 0.5);
 }
 
-#shopBtn {
+.mediumButton {
     width: 1.7in;
-    height: .7in;
 
     background: #1abc9c;
     border-bottom: #16a085 3px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
+    border-left: #16a085 2px solid;
+    border-right: #16a085 2px solid;
     border-radius: 6px;
 
     text-align: center;
     color: white;
-
-    padding: 10px;
+    cursor: pointer;
     float: left;
     font-size: 34px;
     font-weight: 800;
+    padding: 10px;
+    padding-top: 12px;
 
-    margin-left :0px;
-
-    cursor: pointer;
     outline: none;
+    user-select: none;
 }
 
-#shopBtn:hover {
+.mediumButton:hover {
     opacity: 0.8; 
 }
 
-#shopBtn:active {
-    height: .7in;
-    width: 1.7in;
+.mediumButton:active {
     background: #18B495;
-    border-bottom: #16a085 1px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin-top: 3px;
-    float: left;
 }
 
 #upgradesBtn {
-    width: auto;
-    height: .7in;
-
-    background: #1abc9c;
-    border-bottom: #16a085 3px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
-    border-radius: 6px;
-
-    text-align: center;
-    color: white;
-
-    padding: 10px;
-    float: left;
-    font-size: 30px;
-    font-weight: 800;
-
-    margin-left: 0px;
     position: absolute;
     top: .81in;
     left: 7px;
-
-    cursor: pointer;
-    outline: none;
-}
-
-#upgradesBtn:hover {
-    opacity: 0.8; 
-}
-
-#upgradesBtn:active {
-    height: .7in;
-    width: 1.5in;
-    background: #18B495;
-    border-bottom: #16a085 1px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
-    border-radius: 6px;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    margin-top: 3px;
-    float: left;
 }
 
 #cashMoneyCont {
     width: auto;
-    height: .3in;
 
-    background: #1abc9c;
-    border-bottom: #16a085 3px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
-    border-radius: 6px;
-
-    text-align: center;
-    color: white;
-
-    padding: 10px;
-    float: left;
-    font-size: 30px;
-    font-weight: 800;
     position: absolute;
     right: 10px;
 }
 
-#expCont {
+#expCount {
     width: auto;
-    height: .3in;
 
-    background: #1abc9c;
-    border-bottom: #16a085 3px solid;
-    border-left: #16a085 1px solid;
-    border-right: #16a085 1px solid;
-    border-radius: 6px;
-
-    text-align: center;
-    color: white;
-
-    padding: 10px;
-    float: left;
-    font-size: 30px;
-    font-weight: 800;
     position: absolute;
     right: 10px;
-    top: .7in;
+    top: .81in;
 }
 
 #shopGui {
