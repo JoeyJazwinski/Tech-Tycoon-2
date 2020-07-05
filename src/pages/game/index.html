@@ -24,60 +24,66 @@
 
 
 
-    <div id="shopGui" class="modelGui hidden">
-        <div class="modalHeader">
-            <h2 class="centerText">Shop</h2>
-            <button id="closeButton" onclick="closeMenu('shopGui')">X</button>
-        </div>        
-
-        <span id="tabsCont">
-            <button class="shopCategory" onClick="openShopCategory(this)">Moniters</button>
-            <button class="shopCategory" onClick="openShopCategory(this)">Pc Parts</button>
-            <button class="shopCategory" onClick="openShopCategory(this)">Cables</button>
-            <button class="shopCategory" onClick="openShopCategory(this)">Acceseries</button>
-            <button class="shopCategory" onClick="openShopCategory(this)">Coming Soon...</button>
-        </span>
-        <div id="itemsBox">
-            <div class="itemContainer">
-                <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
-                <span class="item itemName">Acer CB272</span>
-                <span class="item">24 inch</span>
-                <span class="item">$100</span>
+    <div id="shopGui" class="modalContainer hidden">
+        <div class="modalGui">
+            <div class="modalHeader">
+                <h2 class="centerText">Shop</h2>
+                <button id="closeButton" onclick="closeMenu('shopGui')">X</button>
             </div>
-            <div class="itemContainer">
-                <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
-                <span class="item itemName">Samsung XD2400</span>
-                <span class="item">24 inch</span>
-                <span class="item">$109</span>
-            </div>
-            <div class="itemContainer">
-                <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
-                <span class="item itemName">Asus RX42</span>
-                <span class="item">27 inch</span>
-                <span class="item">$119</span>
-            </div>
-            <div class="itemContainer">
-                <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
-                <span class="item itemName">HP CB324</span>
-                <span class="item">32 inch</span>
-                <span class="item">$139</span>
-            </div>
-            <div class="itemContainer">
-                <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
-                <span class="item itemName">Acer UHD420</span>
-                <span class="item">42 inch</span>
-                <span class="item">$169</span>
+    
+            <span id="tabsCont">
+                <button class="shopCategory" onClick="openShopCategory(this)">Moniters</button>
+                <button class="shopCategory" onClick="openShopCategory(this)">Pc Parts</button>
+                <button class="shopCategory" onClick="openShopCategory(this)">Cables</button>
+                <button class="shopCategory" onClick="openShopCategory(this)">Acceseries</button>
+                <button class="shopCategory" onClick="openShopCategory(this)">Coming Soon...</button>
+            </span>
+            <div id="itemsBox">
+                <div class="itemContainer">
+                    <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
+                    <span class="item itemName">Acer CB272</span>
+                    <span class="item">24 inch</span>
+                    <span class="item">$100</span>
+                </div>
+                <div class="itemContainer">
+                    <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
+                    <span class="item itemName">Samsung XD2400</span>
+                    <span class="item">24 inch</span>
+                    <span class="item">$109</span>
+                </div>
+                <div class="itemContainer">
+                    <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
+                    <span class="item itemName">Asus RX42</span>
+                    <span class="item">27 inch</span>
+                    <span class="item">$119</span>
+                </div>
+                <div class="itemContainer">
+                    <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
+                    <span class="item itemName">HP CB324</span>
+                    <span class="item">32 inch</span>
+                    <span class="item">$139</span>
+                </div>
+                <div class="itemContainer">
+                    <img class="itemImage" src="../../../art/sprites/moniter.png" height="50" width="50">
+                    <span class="item itemName">Acer UHD420</span>
+                    <span class="item">42 inch</span>
+                    <span class="item">$169</span>
+                </div>
             </div>
         </div>
     </div>
-    <div id="upgradeGui" class="modelGui hidden">
-        <div class="modalHeader">
-            <h2 class="centerText">Upgrade</h2>
-            <button id="closeButton" onclick="closeMenu('upgradeGui')">X</button>
-        </div>
 
-        <div id="upgradeBox" height="100px"></div>
+    <div id="upgradeGui" class="modalContainer hidden">
+        <div class="modalGui">
+            <div class="modalHeader">
+                <h2 class="centerText">Upgrade</h2>
+                <button id="closeButton" onclick="closeMenu('upgradeGui')">X</button>
+            </div>
+
+            <div id="upgradeBox" height="100px"></div>
+        </div>
     </div>
+
 </body>
 <!-- MUSIC -->
 <embed src="" autostart="true" loop="true"
