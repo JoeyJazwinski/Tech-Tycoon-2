@@ -60,3 +60,15 @@ We should check out React || or some kind of builder so we can use sass or somet
 Sass makes stylin easier
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Joey Homework's
+
+Create a JSON list of monitors, pc parts and more!
+
+
+
+
+I'll center the Modal
+
+
