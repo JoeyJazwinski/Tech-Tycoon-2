@@ -50,6 +50,7 @@ Item 1- Main Menu DONE
 Item 2- Make Building With Shelves
 		Kev - Make the building in JS
 Item 3- Make A GUI To Buy Items
+		Joey - Backround is being repeated
 Item 4- Click a shelve to sell item in storage
 	-Display Things To Sell
 Item 5- Have Random Customers Come Buy And Look At The Items In Your Store
@@ -68,8 +69,5 @@ Joey Homework's
 Create a JSON list of monitors, pc parts and more!
 
 
-
-
-I'll center the Modal
 
 
