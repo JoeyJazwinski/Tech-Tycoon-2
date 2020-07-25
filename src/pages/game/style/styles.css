@@ -192,12 +192,14 @@ button.mediumButton:active {
   }
 
 .itemContainer {
-    display: flex;
-    align-items: center;
     width: auto;
-    height: 70px;
     border: 1px solid black;
     margin: 4px;
+}
+
+.itemHighlights {
+    display: flex;
+    align-items: center;
 }
 
 .itemImage {
