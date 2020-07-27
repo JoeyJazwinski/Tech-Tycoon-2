@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ShopModal from './components/ShopModal/ShopModal';
+import Game from './pages/game/Game';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ShopModal />
+    <Game />
   </React.StrictMode>,
   document.getElementById('shopGui')
 );
